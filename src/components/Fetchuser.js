@@ -38,7 +38,7 @@ function Fetchuser() {
 
   return (
     <div className='container'>
-      <Row xs={2} md={3} lg={4} className="g-4">
+      <Row xs={1} sm={2} md={3} lg={4} className="g-4">
         <input type="text" className='form-control' placeholder='Search here...' onChange={Filter} />
         {filteruser.map((user) => (
           <Col key={user.id}>
