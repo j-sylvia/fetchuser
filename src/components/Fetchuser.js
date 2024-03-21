@@ -41,7 +41,7 @@ function Fetchuser() {
       <Row xs={1} sm={2} md={3} lg={4} className="g-4">
         <input type="text" className='form-control' placeholder='Search here...' onChange={Filter} />
         {filteruser.map((user) => (
-     <React.Fragment className="col d-flex justify-content-center">
+     <React.Fragment className="card cardalign w-50">
           <Col key={user.id}>
             <Card style={{ border: '2px solid black', width: '18rem', boxShadow: '2px 10px 15px grey', backgroundColor: 'lightblue' }}>
               <Card.Img style={{ height: '200px' }} variant="top" src={user.image} />
