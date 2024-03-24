@@ -37,8 +37,8 @@ function Fetchuser() {
   if (!user) return null;
 
   return (
-    <div className='container row d-flex justify-content-center align-items-center'>
-      <Row xs={1} sm={2} md={3} lg={4} className="g-4">
+    <div className='container'>
+      <Row xs={1} sm={2} md={3} lg={4} className="g-4 row d-flex justify-content-center align-items-center">
         <input type="text" className='form-control' placeholder='Search here...' onChange={Filter} />
         {filteruser.map((user) => (
      
