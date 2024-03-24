@@ -43,7 +43,7 @@ function Fetchuser() {
         {filteruser.map((user) => (
      
           <Col key={user.id}>
-            <Card className="row d-flex justify-content-center align-items-center" style={{ border: '2px solid black', width: '20rem', boxShadow: '2px 10px 15px grey', backgroundColor: 'lightblue' }}>
+            <Card style={{ border: '2px solid black', width: '20rem', boxShadow: '2px 10px 15px grey', backgroundColor: 'lightblue' }}>
               <Card.Img style={{ height: '200px' }} variant="top" src={user.image} />
               <Card.Body>
                 <Card.Title><h2>{user.name}</h2></Card.Title>
